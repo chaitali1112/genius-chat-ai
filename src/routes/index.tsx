@@ -52,7 +52,7 @@ function ChatPage() {
     setIsLoading(true);
 
     try {
-    const res = await fetch("https://taskflow.app.n8n.cloud/webhook/mychatapp", {
+  const res = await fetch(WEBHOOK_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
