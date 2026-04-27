@@ -14,7 +14,8 @@ export const Route = createFileRoute("/")({
   }),
 });
 
-const WEBHOOK_URL = "https://taskflow.app.n8n.cloud/webhook/mychatapp",{
+const WEBHOOK_URL = "https://taskflow.app.n8n.cloud/webhook/mychatapp";
+
 const GREETING = "How can I help you today? I'm a smart genius assistant.";
 
 function extractText(data: unknown): string {
