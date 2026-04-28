@@ -2,17 +2,17 @@
     -A minimal ChatGPT-style AI chat application with a clean dark UI, powered by n8n webhooks and an AI agent.
 
 🚀 Features:-
-🌑 Dark, modern UI
-💬 Real-time chat interface
-🔗 Webhook integration with n8n
-⚡ Fast and minimal design
-🧠 AI-powered responses
+ -Dark, modern UI
+ -Real-time chat interface
+ -Webhook integration with n8n
+ -Fast and minimal design
+ -AI-powered responses
 
 🛠️ Tech Stack:-
-Frontend: React (TanStack Router)
-Styling: Tailwind CSS
-Backend: n8n (Webhook + AI Agent)
-AI Model: OpenAI Chat Model
+ -Frontend: React (TanStack Router)
+ -Styling: Tailwind CSS
+ -Backend: n8n (Webhook + AI Agent)
+ -AI Model: OpenAI Chat Model
 
 📂 Project Structure:-
 ai-chat-n8n/
