@@ -17,7 +17,7 @@ AI Model: OpenAI Chat Model
 📂 Project Structure:-
 ai-chat-n8n/
  ├── src/
- ├── public/
+ ├── public
  ├── package.json
  ├── n8n-workflow.json
  ├── README.md
@@ -39,7 +39,7 @@ ai-chat-n8n/
   -Copy Production Webhook URL
 5. Configure Webhook
   Update in your code:
-  const WEBHOOK_URL = "https://your-n8n-domain/webhook/mychatapp";
+ const WEBHOOK_URL = import.meta.env.VITE_WEBHOOK_URL;
 
 🔄 How It Works
  -User sends message
